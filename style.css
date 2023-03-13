@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #363636;
+    font-family: 'Roboto', sans-serif;
+}
+
+.bodyAtv12 {
+    background-color: #fff;
+}
+
+main {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.container1,
+.container2 {
+    height: 50%;
+    background-color: #f3f3f3;
+    width: 70%;
+}
+
+.laranja,
+.azul,
+.circulo,
+.quadrado1,
+.quadrado2 {
+    width: 100px;
+    height: 100px;
+
+}
+
+.laranja,
+.circulo,
+.azul {
+    border-radius: 50%;
+}
+
+.laranja,
+.circulo {
+    background-color: #FF9900;
+}
+
+.azul,
+.quadrado1 {
+    background-color: #0B5191;
+}
+
+.container1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container2 {
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+    flex-direction: row-reverse;
+    flex-wrap: wrap-reverse;
+    column-gap: 50%;
+}
+
+/*Atividade 3*/
+
+.bodyAtv3 {
+    height: 100%;
+    width: 100%;
+    background: #d2d9eccc;
+}
+
+header,
+.item01 button,
+.btn {
+    background-color: #4169E1;
+}
+
+img {
+    width: 50px;
+    margin-left: 12px;
+
+}
+
+.container-flex,
+.container3,
+.item01 {
+    display: flex;
+}
+
+.container3 {
+    flex-direction: column;
+    width: 60%;
+    height: 70%;
+
+}
+
+.item01,
+.container3 {
+    gap: 15px;
+}
+
+.item01 button,
+input,
+.btn {
+    border-radius: 5px;
+}
+
+.primeiroP {
+    text-align: center;
+}
+
+input {
+    width: 100%;
+    border: 1px solid #3636366c;
+    outline: none;
+    padding: 10px;
+}
+
+.item01 button {
+    width: 50%;
+}
+
+.item01 button,
+.btn {
+    color: white;
+    border: none;
+    height: 48px;
+    cursor: pointer;
+}
+
+.btn {
+    font-size: 16px;
+}
+
+p>span {
+    color: #4169E1;
+    ;
+}
