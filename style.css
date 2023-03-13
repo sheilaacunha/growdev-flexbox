@@ -111,8 +111,9 @@ input,
     border-radius: 5px;
 }
 
-.primeiroP {
+.primeiroP,.container3 a {
     text-align: center;
+    text-decoration: none;
 }
 
 input {
